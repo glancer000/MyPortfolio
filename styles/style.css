@@ -1,0 +1,77 @@
+body, html{
+    margin:0;
+    padding:0;
+}
+
+.container {
+display: flex;
+}
+
+.left-container {
+display: flex;
+align-items: center;
+justify-content: center;
+background: rgb(25, 88, 224);
+flex-basis: 50%;
+}
+
+.name-box{
+    width:60%;
+}
+
+.name{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5rem;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+    
+}
+
+.description{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2rem;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin: 3% 0px 0px 0px;
+}
+
+.icon-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.icon{
+    width: 4rem;
+    justify-content:space-between;
+    margin: 8% 0px;
+}
+
+.icon:hover{
+    fill: #111;
+}
+
+.right-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 50%;
+    height: 100vh; 
+    overflow: auto;
+}
+
+.content-box{
+    width: 80%;
+    top:20vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+p{
+    font-weight: 400
+}
