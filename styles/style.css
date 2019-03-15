@@ -50,7 +50,7 @@ flex-basis: 50%;
 .icon{
     width: 4rem;
     justify-content:space-between;
-    margin: 8% 0px;
+    margin: 30% 0px;
 }
 
 .icon:hover{
@@ -59,7 +59,6 @@ flex-basis: 50%;
 
 .right-container {
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-basis: 50%;
     height: 100vh; 
@@ -68,15 +67,34 @@ flex-basis: 50%;
 
 .content-box{
     width: 80%;
-    top:20vh;
+}
+
+.main-box{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.show-piece{
+    height: 70%;
+}
+
+.aboutme-box{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
 
 h2{
+    font-size: 2.5rem;
     font-weight: 600;
 }
 
 p{
+    font-size: 2rem;
     font-weight: 400;
 }
+
+@media only screen and (max-width: 800px) {
+
+  }
