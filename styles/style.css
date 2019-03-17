@@ -4,7 +4,8 @@ body, html{
 }
 
 .container {
-display: flex;
+display: grid;
+grid-template-columns: 1fr 1fr;
 }
 
 .left-container {
@@ -44,6 +45,7 @@ flex-basis: 50%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin:20% 0px;
 
 }
 
@@ -74,15 +76,26 @@ flex-basis: 50%;
     height: 100vh;
     justify-content: center;
     align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
 
 .show-piece{
     height: 70%;
 }
 
-.aboutme-box{
+.aboutme-containter{
+    display: flex;
+    height: 500px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+
+}
+
+.aboutme-content{
+    align-items: center;
+    justify-content: center;
+    
 }
 
 h2{
@@ -91,10 +104,22 @@ h2{
 }
 
 p{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 
-@media only screen and (max-width: 800px) {
+.skills{
+    height: 10rem;
+    margin: 50px;
+}
 
-  }
+@media only screen and (max-width: 800px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        }
+
+    .right-container {
+        overflow: visible;
+    }
+}
