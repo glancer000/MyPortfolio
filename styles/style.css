@@ -179,7 +179,6 @@ p{
         align-items: center;
         justify-content: center;
         background: rgb(25, 88, 224);
-        flex-basis: 50%;
         height: 100vh;
         }
 
@@ -189,6 +188,12 @@ p{
 
     .project-box{
         display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .input-names{
+        display: grid;
+        grid-gap: 20px;
         grid-template-columns: 1fr;
     }
 }
