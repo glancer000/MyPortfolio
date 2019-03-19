@@ -50,13 +50,13 @@
                         
                         <h2>Let's Chat!</h2>
                         <p>Send me a message, I would love to hear about your project and how I could help out.</p>
-                        <form method="post" action="mailto:contactgregtucker@gmail.com">
+                        <form id="contact-form" method="post" action="contact-form-handler.php">
                             <div class="input-names">
-                                <input class="input-box first-name" name="Name" type="text" placeholder="First name">
-                                <input class="input-box last-name" name="Surname" type="text" placeholder="Last Name">
+                                <input class="input-box first-name" name="name" type="text" placeholder="First name" required>
+                                <input class="input-box last-name" name="surname" type="text" placeholder="Last Name">
                             </div>
-                            <input class="input-box email" name="Email" type="text" placeholder="Email">
-                            <input class="input-box comment" name="Comments" type="text" placeholder="Comments">
+                            <input class="input-box email" name="email" type="text" placeholder="Email">
+                            <input class="input-box comment" name="message" type="text" placeholder="Message">
                             <input class="submit-btn" type="submit" value="Submit"></input>
                         </form>
                     </div>
