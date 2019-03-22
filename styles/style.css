@@ -277,4 +277,45 @@ p{
         width: 100%;
         margin: 10px 0;
     }
+
+    .icon-rows{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    
+    
+    .html-icon {
+        background: url('../images/icons.png') no-repeat 0 0;
+        background-size: 500%;
+        width: 80px;
+        height: 120px;
+    }
+    
+    .css-icon {
+        background: url('../images/icons.png') no-repeat -80px 0;
+        background-size: 500%;
+        width: 80px;
+        height: 156px;
+    }
+    
+    .js-icon {
+        background: url('../images/icons.png') no-repeat -160px 0;
+        background-size: 500%;
+        width: 80px;
+        height: 156px;
+    }
+    
+    .node-icon {
+        background: url('../images/icons.png') no-repeat -240px 0;
+        background-size: 500%;
+        width: 80px;
+        height: 156px;
+    }
+    
+    .flutter-icon {
+        background: url('../images/icons.png') no-repeat -320px 0;
+        background-size: 500%;
+        width: 80px;
+        height: 156px;
+    }
 }
